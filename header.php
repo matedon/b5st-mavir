@@ -34,8 +34,6 @@
           'walker'          => new b5st_walker_nav_menu()
         ) );
       ?>
-
-      <?php b5st_navbar_search();?>    
     </div>
 
   </div>

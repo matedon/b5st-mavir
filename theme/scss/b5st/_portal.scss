@@ -1,0 +1,18 @@
+$color-2: #FBEEE5;
+$color-3: #F1C8AB;
+$color-4: #E9A68C;
+$color-5: #E88E74;
+$color-6: #AA3C29;
+
+body {
+    background: $color-2;
+}
+
+article.post {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid $color-4;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}

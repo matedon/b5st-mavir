@@ -31,6 +31,18 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 ol.wp-block-latest-comments {
   padding-left: 0; }
 
+body {
+  font-family: 'Lora', serif; }
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; }
+
 header h2 a {
   color: rgba(0, 0, 0, 0.9);
   text-decoration: none; }
@@ -290,3 +302,14 @@ body {
 
 main {
   flex: 1 0 auto; }
+
+body {
+  background: #FBEEE5; }
+
+article.post {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #E9A68C;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem; }
