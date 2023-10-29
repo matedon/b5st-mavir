@@ -1,6 +1,21 @@
 /*!
  * b5st since v1.0 | Unicence
  */
+.text-color-2 {
+  color: #FBEEE5; }
+
+.text-color-3 {
+  color: #F1C8AB; }
+
+.text-color-4 {
+  color: #E9A68C; }
+
+.text-color-5 {
+  color: #E88E74; }
+
+.text-color-6 {
+  color: #AA3C29; }
+
 body {
   background: #FBEEE5; }
 

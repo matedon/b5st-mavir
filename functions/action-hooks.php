@@ -21,7 +21,7 @@ function b5st_navbar_brand() {
   if ( ! has_action('navbar_brand') ) {
     ?>
     <a class="navbar-brand" href="<?php echo esc_url( home_url('/') ); ?>" title="<?php bloginfo('name'); ?>">
-      <span class="h1">MaVir</span>
+      <span class="h1">Ma<span class="text-color-6">V</span><span class="text-color-5">ir</span></span>
     </a>
     <?php
   } else {
