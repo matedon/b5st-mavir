@@ -3,7 +3,7 @@
   b5st_mainbody_before();
 ?>
 
-<main id="site-main">
+<main id="site-main" class="b5st-page">
   <?php
     b5st_mainbody_start();
     get_template_part('loops/page-content');

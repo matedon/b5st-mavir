@@ -7,7 +7,7 @@
 ?>
 
 
-<article role="article" id="post_<?php the_ID()?>" <?php post_class("wrap-md entry-content"); ?> >
+<article role="article" id="post_<?php the_ID()?>" <?php post_class("entry-content"); ?> >
   <header>
     <?php the_post_thumbnail(); ?>
     <div class="index-post-category mb-3 text-muted d-none">

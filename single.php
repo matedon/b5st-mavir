@@ -3,7 +3,7 @@
   b5st_mainbody_before();
 ?>
 
-<main id="site-main">
+<main id="site-main" class="b5st-single">
   <?php b5st_mainbody_start(); ?>
 
   <?php get_template_part('loops/single-post', get_post_format()); ?>

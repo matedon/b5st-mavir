@@ -47,5 +47,19 @@ function b5st_widgets_init() {
     'after_title'     => '</h2>',
   ) );
 
+  /**
+   * Footer
+   */
+
+   register_sidebar( array(
+    'name'            => __( 'Sidebar Widget Area', 'b5st' ),
+    'id'              => 'sidebar-widget-area',
+    'description'     => __( 'Sidebar widgets.', 'b5st' ),
+    'before_widget'   => '',
+    'after_widget'    => '',
+    'before_title'    => '<h2 class="h4">',
+    'after_title'     => '</h2>',
+  ) );
+
 }
 add_action( 'widgets_init', 'b5st_widgets_init' );
