@@ -16,7 +16,7 @@ if (
   b5st_mainbody_before();
 ?>
 
-<main id="site-main">
+<main id="site-main" class="b5st-author">
   <?php b5st_mainbody_start(); ?>
 
   <header class="container py-5 text-center">
