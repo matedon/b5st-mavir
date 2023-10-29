@@ -38,6 +38,8 @@
 
   </div>
 </nav>
+
+<?php get_template_part('carousel'); ?>
   
 </div>
 
