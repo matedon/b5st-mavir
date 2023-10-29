@@ -328,7 +328,9 @@ a {
   margin: 0 auto;
   max-width: 1320px; }
 
-.b5st-carousel-cont .carousel-caption,
+.b5st-carousel-cont .carousel-caption {
+  z-index: 14; }
+
 .b5st-carousel-cont .carousel-indicators,
 .b5st-carousel-cont .carousel-control-prev,
 .b5st-carousel-cont .carousel-control-next {
