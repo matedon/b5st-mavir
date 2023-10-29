@@ -4,6 +4,8 @@ $color-4: #E9A68C;
 $color-5: #E88E74;
 $color-6: #AA3C29;
 
+$color-16: #2997aa;
+
 body {
     background: $color-2;
 }
@@ -20,6 +22,9 @@ article.post {
 a {
     color: $color-6;
     text-decoration: none;
+}
+a:hover {
+    color: $color-16;
 }
 
 .fw-bolder {

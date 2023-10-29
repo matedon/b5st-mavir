@@ -1,6 +1,53 @@
 /*!
  * b5st since v1.0 | Unicence
  */
+body {
+  background: #FBEEE5; }
+
+article.post {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #E9A68C;
+  border-radius: 0 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem; }
+
+a {
+  color: #AA3C29;
+  text-decoration: none; }
+
+a:hover {
+  color: #2997aa; }
+
+.fw-bolder {
+  font-weight: 400 !important; }
+
+.b5st-carousel-cont {
+  background: linear-gradient(rgba(232, 142, 116, 0.5), rgba(0, 0, 0, 0.3)); }
+
+.b5st-carousel-cont .b5st-carousel-cont-in {
+  margin: 0 auto;
+  max-width: 1320px; }
+
+.b5st-carousel-cont .carousel-caption {
+  z-index: 14; }
+
+.b5st-carousel-cont .carousel-indicators,
+.b5st-carousel-cont .carousel-control-prev,
+.b5st-carousel-cont .carousel-control-next {
+  z-index: 15; }
+
+.b5st-carousel-cont .carousel-item::after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
+  z-index: 10; }
+
 .site-header-image {
   display: block;
   margin: auto; }
@@ -41,8 +88,9 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: 'Shantell Sans', cursive;
-  font-weight: 400; }
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 400;
+  margin-bottom: 0.75rem; }
 
 h1, .h1 {
   font-size: 3rem; }
@@ -63,10 +111,8 @@ h6, .h6 {
   font-size: 1.25rem; }
 
 header h2 a {
-  color: rgba(0, 0, 0, 0.9);
+  color: #AA3C29;
   text-decoration: none; }
-  header h2 a:hover {
-    text-decoration: underline; }
 
 .has-drop-cap:not(:focus):first-letter {
   float: left;
@@ -321,47 +367,3 @@ body {
 
 main {
   flex: 1 0 auto; }
-
-body {
-  background: #FBEEE5; }
-
-article.post {
-  background-color: rgba(255, 255, 255, 0.5);
-  border: 1px solid #E9A68C;
-  border-radius: 0 3rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  padding: 2rem; }
-
-a {
-  color: #AA3C29;
-  text-decoration: none; }
-
-.fw-bolder {
-  font-weight: 400 !important; }
-
-.b5st-carousel-cont {
-  background: linear-gradient(rgba(232, 142, 116, 0.5), rgba(0, 0, 0, 0.3)); }
-
-.b5st-carousel-cont .b5st-carousel-cont-in {
-  margin: 0 auto;
-  max-width: 1320px; }
-
-.b5st-carousel-cont .carousel-caption {
-  z-index: 14; }
-
-.b5st-carousel-cont .carousel-indicators,
-.b5st-carousel-cont .carousel-control-prev,
-.b5st-carousel-cont .carousel-control-next {
-  z-index: 15; }
-
-.b5st-carousel-cont .carousel-item::after {
-  content: ' ';
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
-  z-index: 10; }

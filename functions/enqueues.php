@@ -17,8 +17,11 @@ if ( ! function_exists('b5st_enqueues') ) {
 		wp_register_style('fontAwesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
 		wp_enqueue_style('fontAwesome');
 
-		wp_register_style('googleFonts', 'https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Shantell+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-		wp_enqueue_style('googleFonts');
+		wp_register_style('googleFont2', 'https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700');
+		wp_enqueue_style('googleFont2');
+
+		wp_register_style('googleFont3', 'https://fonts.googleapis.com/css2?family=Kaushan+Script');
+		wp_enqueue_style('googleFont3');
 
 		wp_enqueue_style( 'gutenberg-blocks', get_template_directory_uri() . '/theme/css/blocks.css' );
 

@@ -20,7 +20,9 @@ function b5st_navbar_after() {
 function b5st_navbar_brand() {
   if ( ! has_action('navbar_brand') ) {
     ?>
-    <a class="navbar-brand" href="<?php echo esc_url( home_url('/') ); ?>"><?php bloginfo('name'); ?></a>
+    <a class="navbar-brand" href="<?php echo esc_url( home_url('/') ); ?>" title="<?php bloginfo('name'); ?>">
+      <span class="h1">MaVir</span>
+    </a>
     <?php
   } else {
 		do_action('navbar_brand');
