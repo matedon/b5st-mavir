@@ -42,7 +42,5 @@
 </nav>
 
 <?php get_template_part('carousel'); ?>
-  
-</div>
 
 <?php b5st_navbar_after();?>

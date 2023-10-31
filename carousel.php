@@ -1,10 +1,10 @@
-<?php if (of_get_option('sparkling_slider_checkbox') == 1):
-$count = of_get_option('sparkling_slide_number');
-$slidecat = of_get_option('sparkling_slide_categories');
+<!-- Carousel START -->
+<?php if (of_get_option('b5st_slider_checkbox') == 1):
+echo of_get_option('b5st_slider_autoplay_checkbox');
 $query = new WP_Query(
   array(
-    'cat' => $slidecat,
-    'posts_per_page' => $count,
+    'cat' => of_get_option('b5st_slide_categories'),
+    'posts_per_page' => of_get_option('b5st_slide_number'),
     'meta_query' => array(
       array(
         'key' => '_thumbnail_id',
@@ -27,7 +27,7 @@ endif;
 ?>
 <div class="b5st-carousel-cont container-fluid">
     <div class="b5st-carousel-cont-in">
-        <div id="carouselExampleDark" class="carousel carousel slide">
+        <div id="carouselExampleDark" <?=(of_get_option('b5st_slider_autoplay_checkbox') == 1 ? 'data-bs-ride="carousel"' : 'data-autoplay-off')?> class="carousel slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -35,7 +35,7 @@ endif;
             </div>
             <div class="carousel-inner">
                 <?php foreach($rows as $key => $row): ?>
-                <div class="carousel-item <?=($key == 0 ? 'active' : '')?>" data-bs-interval="2000">
+                <div class="carousel-item <?=($key == 0 ? 'active' : '')?>" data-bs-interval="<?=of_get_option('b5st_slider_autoplay_time')?>">
                     <img src="<?=$row['src']?>" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5><?=$row['title']?></h5>
@@ -56,3 +56,4 @@ endif;
     </div>
 </div>
 <?php endif; ?>
+<!-- Carousel END -->

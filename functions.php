@@ -31,7 +31,7 @@ if (!function_exists('of_get_option')) :
 
     $option_name = '';
     // Get option settings from database
-    $options = get_option('sparkling');
+    $options = get_option('b5st');
 
     // Return specific option
     if (isset($options[$name])) {

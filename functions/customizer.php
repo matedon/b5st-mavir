@@ -12,104 +12,143 @@ function b5st_customizer($wp_customize)
 {
     /* Main option Settings Panel */
     $wp_customize->add_panel(
-        'sparkling_main_options',
+        'b5st_main_options',
         array(
             'capability' => 'edit_theme_options',
             'theme_supports' => '',
-            'title' => __('Sparkling Options', 'sparkling'),
-            'description' => __('Panel to update sparkling theme options', 'sparkling'),
+            'title' => __('B5ST Options', 'b5st'),
+            'description' => __('Panel to update b5st theme options', 'b5st'),
             // Include html tags such as <p>.
             'priority' => 10,
             // Mixed with top-level-section hierarchy.
         )
     );
 
-    /* Sparkling Main Options */
+    /* b5st Main Options */
     $wp_customize->add_section(
-        'sparkling_slider_options',
+        'b5st_slider_options',
         array(
-            'title' => __('Slider Options', 'sparkling'),
+            'title' => __('Slider Options', 'b5st'),
             'priority' => 31,
-            'panel' => 'sparkling_main_options',
+            'panel' => 'b5st_main_options',
         )
     );
     $wp_customize->add_setting(
-        'sparkling[sparkling_slider_checkbox]',
+        'b5st[b5st_slider_checkbox]',
         array(
             'default' => 0,
             'type' => 'option',
-            'sanitize_callback' => 'sparkling_sanitize_checkbox',
+            'sanitize_callback' => 'b5st_sanitize_checkbox',
         )
     );
     $wp_customize->add_control(
         new Epsilon_Control_Toggle(
             $wp_customize,
-            'sparkling[sparkling_slider_checkbox]',
+            'b5st[b5st_slider_checkbox]',
             array(
-                'label' => esc_html__('Check if you want to enable slider', 'sparkling'),
-                'section' => 'sparkling_slider_options',
+                'label' => esc_html__('Check if you want to enable slider', 'b5st'),
+                'section' => 'b5st_slider_options',
                 'priority' => 5,
                 'type' => 'epsilon-toggle',
             )
         )
     );
     $wp_customize->add_setting(
-        'sparkling[sparkling_slider_link_checkbox]',
+        'b5st[b5st_slider_link_checkbox]',
         array(
             'default' => 1,
             'type' => 'option',
-            'sanitize_callback' => 'sparkling_sanitize_checkbox',
+            'sanitize_callback' => 'b5st_sanitize_checkbox',
         )
     );
     $wp_customize->add_control(
         new Epsilon_Control_Toggle(
             $wp_customize,
-            'sparkling[sparkling_slider_link_checkbox]',
+            'b5st[b5st_slider_link_checkbox]',
             array(
-                'label' => esc_html__('Uncheck this option to remove the link from the slides', 'sparkling'),
-                'section' => 'sparkling_slider_options',
+                'label' => esc_html__('Uncheck this option to remove the link from the slides', 'b5st'),
+                'section' => 'b5st_slider_options',
                 'priority' => 6,
                 'type' => 'epsilon-toggle',
             )
         )
     );
 
+    $wp_customize->add_setting(
+        'b5st[b5st_slider_autoplay_checkbox]',
+        array(
+            'default' => 1,
+            'type' => 'option',
+            'sanitize_callback' => 'b5st_sanitize_checkbox',
+        )
+    );
+    $wp_customize->add_control(
+        new Epsilon_Control_Toggle(
+            $wp_customize,
+            'b5st[b5st_slider_autoplay_checkbox]',
+            array(
+                'label' => esc_html__('Check if you want to enable autoplay', 'b5st'),
+                'section' => 'b5st_slider_options',
+                'priority' => 5,
+                'type' => 'epsilon-toggle',
+            )
+        )
+    );
+
+    $wp_customize->add_setting(
+        'b5st[b5st_slider_autoplay_time]',
+        array(
+            'default' => 5000,
+            'type' => 'option',
+            'sanitize_callback' => 'b5st_sanitize_number',
+        )
+    );
+    $wp_customize->add_control(
+        'b5st[b5st_slider_autoplay_time]',
+        array(
+            'label' => __('Slider autoplay in time (ms)', 'b5st'),
+            'section' => 'b5st_slider_options',
+            'description' => __('Enter autoplay time in milliseconds', 'b5st'),
+            'type' => 'text',
+        )
+    );
+
     // Pull all the categories into an array
     global $options_categories;
     $wp_customize->add_setting(
-        'sparkling[sparkling_slide_categories]',
+        'b5st[b5st_slide_categories]',
         array(
             'default' => '',
             'type' => 'option',
             'capability' => 'edit_theme_options',
-            'sanitize_callback' => 'sparkling_sanitize_slidecat',
+            'sanitize_callback' => 'b5st_sanitize_slidecat',
         )
     );
     $wp_customize->add_control(
-        'sparkling[sparkling_slide_categories]',
+        'b5st[b5st_slide_categories]',
         array(
-            'label' => __('Slider Category', 'sparkling'),
-            'section' => 'sparkling_slider_options',
+            'label' => __('Slider Category', 'b5st'),
+            'section' => 'b5st_slider_options',
             'type' => 'select',
-            'description' => __('Select a category for the featured post slider', 'sparkling'),
+            'description' => __('Select a category for the featured post slider', 'b5st'),
             'choices' => $options_categories,
         )
     );
 
     $wp_customize->add_setting(
-        'sparkling[sparkling_slide_number]',
+        'b5st[b5st_slide_number]',
         array(
             'default' => 3,
             'type' => 'option',
-            'sanitize_callback' => 'sparkling_sanitize_number',
+            'sanitize_callback' => 'b5st_sanitize_number',
         )
     );
     $wp_customize->add_control(
-        'sparkling[sparkling_slide_number]',
+        'b5st[b5st_slide_number]',
         array(
-            'label' => __('Number of slide items', 'sparkling'),
-            'section' => 'sparkling_slider_options',
-            'description' => __('Enter the number of slide items', 'sparkling'),
+            'label' => __('Number of slide items', 'b5st'),
+            'section' => 'b5st_slider_options',
+            'description' => __('Enter the number of slide items', 'b5st'),
             'type' => 'text',
         )
     );
@@ -121,7 +160,7 @@ add_action('customize_register', 'b5st_customizer');
 /**
  * Sanitzie checkbox for WordPress customizer
  */
-function sparkling_sanitize_checkbox($input)
+function b5st_sanitize_checkbox($input)
 {
   if (1 == $input) {
     return 1;
@@ -132,9 +171,9 @@ function sparkling_sanitize_checkbox($input)
 
 /**
  * Adds sanitization callback function: colors
- * @package Sparkling
+ * @package b5st
  */
-function sparkling_sanitize_hexcolor($color)
+function b5st_sanitize_hexcolor($color)
 {
   $unhashed = sanitize_hex_color_no_hash($color);
   if ($unhashed) {
@@ -146,18 +185,18 @@ function sparkling_sanitize_hexcolor($color)
 
 /**
  * Adds sanitization callback function: Nohtml
- * @package Sparkling
+ * @package b5st
  */
-function sparkling_sanitize_nohtml($input)
+function b5st_sanitize_nohtml($input)
 {
   return wp_filter_nohtml_kses($input);
 }
 
 /**
  * Adds sanitization callback function: Number
- * @package Sparkling
+ * @package b5st
  */
-function sparkling_sanitize_number($input)
+function b5st_sanitize_number($input)
 {
   if (isset($input) && is_numeric($input)) {
     return $input;
@@ -166,27 +205,27 @@ function sparkling_sanitize_number($input)
 
 /**
  * Adds sanitization callback function: Strip Slashes
- * @package Sparkling
+ * @package b5st
  */
-function sparkling_sanitize_strip_slashes($input)
+function b5st_sanitize_strip_slashes($input)
 {
   return wp_kses_stripslashes($input);
 }
 
 /**
  * Adds sanitization callback function: Sanitize Text area
- * @package Sparkling
+ * @package b5st
  */
-function sparkling_sanitize_textarea($input)
+function b5st_sanitize_textarea($input)
 {
   return sanitize_text_field($input);
 }
 
 /**
  * Adds sanitization callback function: Slider Category
- * @package Sparkling
+ * @package b5st
  */
-function sparkling_sanitize_slidecat($input)
+function b5st_sanitize_slidecat($input)
 {
   global $options_categories;
   if (array_key_exists($input, $options_categories)) {
@@ -198,9 +237,9 @@ function sparkling_sanitize_slidecat($input)
 
 /**
  * Adds sanitization callback function: Sidebar Layout
- * @package Sparkling
+ * @package b5st
  */
-function sparkling_sanitize_layout($input)
+function b5st_sanitize_layout($input)
 {
   global $site_layout;
   if (array_key_exists($input, $site_layout)) {
@@ -212,9 +251,9 @@ function sparkling_sanitize_layout($input)
 
 /**
  * Adds sanitization callback function: Typography Size
- * @package Sparkling
+ * @package b5st
  */
-function sparkling_sanitize_typo_size($input)
+function b5st_sanitize_typo_size($input)
 {
   global $typography_options, $typography_defaults;
   if (array_key_exists($input, $typography_options['sizes'])) {
@@ -226,9 +265,9 @@ function sparkling_sanitize_typo_size($input)
 
 /**
  * Adds sanitization callback function: Typography Face
- * @package Sparkling
+ * @package b5st
  */
-function sparkling_sanitize_typo_face($input)
+function b5st_sanitize_typo_face($input)
 {
   global $typography_options, $typography_defaults;
   if (array_key_exists($input, $typography_options['faces'])) {
@@ -240,9 +279,9 @@ function sparkling_sanitize_typo_face($input)
 
 /**
  * Adds sanitization callback function: Typography Style
- * @package Sparkling
+ * @package b5st
  */
-function sparkling_sanitize_typo_style($input)
+function b5st_sanitize_typo_style($input)
 {
   global $typography_options, $typography_defaults;
   if (array_key_exists($input, $typography_options['styles'])) {
