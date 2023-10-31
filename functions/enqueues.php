@@ -25,7 +25,7 @@ if ( ! function_exists('b5st_enqueues') ) {
 
 		wp_enqueue_style( 'gutenberg-blocks', get_template_directory_uri() . '/theme/css/blocks.css' );
 
-		wp_register_style('theme', get_template_directory_uri() . '/theme/css/b5st.css', false, '20231030a1');
+		wp_register_style('theme', get_template_directory_uri() . '/theme/css/b5st.css', false, '20231031_0733');
 		wp_enqueue_style('theme');
 
 		// Scripts

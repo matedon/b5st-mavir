@@ -67,3 +67,13 @@ a:hover {
     background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
     z-index: 10;
 }
+
+.b5st-nav-brand {
+    position: relative;
+}
+
+.b5st-nav-brand-logo {
+    position: absolute;
+    bottom: -5px;
+    margin-left: 2px;
+}
