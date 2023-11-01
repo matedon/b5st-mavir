@@ -44,6 +44,11 @@ body {
 #site-aside {
     margin-top: 3rem + 2rem;
 }
+@media only screen and (max-width: 1200px) {
+    #site-aside {
+        margin-bottom: -3.5rem;
+    }
+}
 
 a {
     color: $color-6;
