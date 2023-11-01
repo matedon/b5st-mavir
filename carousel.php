@@ -26,11 +26,11 @@ endif;
 $sac = of_get_option('b5st_slider_autoplay_checkbox');
 $autoplay = ($sac == 1 || $sac === false) ? 'data-bs-ride="carousel"' : 'data-autoplay-off';
 ?>
-<div class="b5st-carousel-cont container-fluid" style="background-image: url('<?=$rows[0]['src']?>');">
-    <div class="b5st-carousel-cont__bg1"></div>
-    <div class="b5st-carousel-cont__bg2"></div>
+<div class="b5st-carousel-cont container-fluid" data-b5st-carousel style="background-image: url('<?=$rows[0]['src']?>');">
+    <div class="b5st-carousel-cont__bg1" data-b5st-carousel-bg1></div>
+    <div class="b5st-carousel-cont__bg2" data-b5st-carousel-bg2></div>
     <div class="b5st-carousel-cont-in">
-        <div id="b5stCarousel" <?php echo $autoplay; ?> class="carousel slide">
+        <div id="b5stCarousel" data-b5st-carousel-me <?php echo $autoplay; ?> class="carousel slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#b5stCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#b5stCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -58,26 +58,5 @@ $autoplay = ($sac == 1 || $sac === false) ? 'data-bs-ride="carousel"' : 'data-au
         </div>
     </div>
 </div>
-<script>
-(function ($) {
-console.log('carousel on')
-$('#b5stCarousel').on('slide.bs.carousel', function () {
-    const $this = $(this)
-    const $par = $this.closest('.b5st-carousel-cont')
-    const $bg1 = $par.find('.b5st-carousel-cont__bg1')
-    const activeImg = $this.find('.carousel-item').filter('.active').find('img').attr('src')
-    $bg1.css({'background-image': 'url(' + activeImg + ')', 'opacity': 1}).delay(0).animate({'opacity': 0.0001}, 1500)
-    console.log('carousel slide')
-})
-$('#b5stCarousel').on('slid.bs.carousel', function () {
-    const $this = $(this)
-    const $par = $this.closest('.b5st-carousel-cont')
-    const $bg1 = $par.find('.b5st-carousel-cont__bg1')
-    const activeImg = $this.find('.carousel-item').filter('.active').find('img').attr('src')
-    $par.css('background-image', 'url(' + activeImg + ')')
-    console.log('carousel slid')
-})
-})(jQuery)
-</script>
 <?php endif; ?>
 <!-- Carousel END -->
