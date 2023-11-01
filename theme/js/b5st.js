@@ -41,4 +41,13 @@ $(window).on('scroll', function() {
         })
     }, 200)
 })
+const $nav = $('nav.fixed-top')
+const $body = $('body')
+let timeRresize
+$(window).on('resize', function () {
+    clearTimeout(timeRresize)
+    timeRresize = setTimeout(function () {
+        $body.css('margin-top', $nav.height())
+    }, 200)
+}).trigger('resize')
 })(jQuery)
