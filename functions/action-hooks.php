@@ -23,7 +23,7 @@ function b5st_navbar_brand() {
     <div class="b5st-nav-brand">
       <a class="navbar-brand" href="<?php echo esc_url( home_url('/') ); ?>" title="<?php bloginfo('name'); ?>">
         <span class="h1">Ma<span class="text-color-6">V</span><span class="text-color-5">ir</span></span>
-        <img class="b5st-nav-brand-logo" src="https://lh3.googleusercontent.com/pw/ADCreHdEJix8DLPGIDpMPnwZKEPLtpHm24UceIM6qhBtMDdiw7z7tTrRCDyGWqf1ab6by14__5JjThiD1XYqyRj1aM7iZPydiOUs-Ds86eC-oaQEYZg5mAVvjvBZ1x3gDFAa_JAGhCrftDyLBAg6LoPofiPIBw=w173-h173-s-no-gm" alt="">
+        <img class="b5st-nav-brand-logo" src="https://lh3.googleusercontent.com/pw/ADCreHe-dqrY_Wbxnt-1Fy6-ty89wTNkeHEgDto3oIPYYibwtD04eYP-94zTuR4buqZxW2hUYssFGjbs5CyH3gbZ54gMcDFobuGimko2RHBv3dWvWSoPL6mlyXVOVrLtHq-T-Bzug-OGDBLhAMX4gG7Q6fT5Mw=w173-h173-s-no-gm" alt="">
       </a>
     </div>
     <?php
