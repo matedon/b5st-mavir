@@ -39,6 +39,9 @@ if ( ! function_exists('b5st_enqueues') ) {
 		wp_register_script('jquery-animate-enhance', 'https://cdn.jsdelivr.net/gh/benbarnett/jQuery-Animate-Enhanced@1.2.0/jquery.animate-enhanced.min.js', false, '1.2.0', true);
 		wp_enqueue_script('jquery-animate-enhance');
 
+		wp_register_script('jquery-viewport', 'https://cdnjs.cloudflare.com/ajax/libs/is-in-viewport/3.0.4/isInViewport.min.js', false, '3.0.4', true);
+		wp_enqueue_script('jquery-viewport');
+
 		wp_register_script('theme', get_template_directory_uri() . '/theme/js/b5st.js', '20231031_1132', null, true);
 		wp_enqueue_script('theme');
 

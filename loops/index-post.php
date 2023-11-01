@@ -4,10 +4,11 @@
  * ===========================
  * Used by index.php, category.php and author.php
  */
+$slug = get_post_field('post_name', get_post());
 ?>
 
-
-<article role="article" id="post_<?php the_ID()?>" <?php post_class("entry-content"); ?> >
+<div id="<?=$slug?>" data-viewport-id>
+<article role="article" id="post_<?php the_ID()?>" <?php post_class("entry-content"); ?>
   <header>
     <?php the_post_thumbnail(); ?>
     <div class="index-post-category mb-3 text-muted d-none">
@@ -33,3 +34,4 @@
   </section>
 
 </article>
+</div>

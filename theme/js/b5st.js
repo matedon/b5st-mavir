@@ -2,7 +2,6 @@
  * b5st JS
  */
 (function ($) {
-console.log('carousel on')
 $('[data-b5st-carousel]').each(function () {
     const $par = $(this)
     const $me = $par.find('[data-b5st-carousel-me]')
@@ -21,5 +20,25 @@ $('[data-b5st-carousel]').each(function () {
         const activeImg = $me.find('.carousel-item').filter('.active').find('img').attr('src')
         $par.css('background-image', 'url(' + activeImg + ')')
     })  
+})
+
+const $viewPortId = $('[data-viewport-id]')
+const $viewPortHref = $('[data-viewport-href]')
+$(window).on('scroll', function() {
+    $viewPortId.filter(':in-viewport(-200)').each(function () {
+        const $this = $(this)
+        const id = $this.attr('id')
+        console.log(id)
+        $viewPortHref.removeClass('active')
+        $viewPortHref.each(function () {
+            const $th = $(this)
+            /*
+            console.log($th.attr('href'))
+            console.log($th.attr('href').indexOf('#' + id))
+            */
+            if ($th.attr('href').indexOf('#' + id) == -1) return this
+            $th.addClass('active')
+        })
+    })
 })
 })(jQuery)
