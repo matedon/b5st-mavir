@@ -24,21 +24,21 @@ $('[data-b5st-carousel]').each(function () {
 
 const $viewPortId = $('[data-viewport-id]')
 const $viewPortHref = $('[data-viewport-href]')
+let timeScroll
 $(window).on('scroll', function() {
-    $viewPortId.filter(':in-viewport(-200)').each(function () {
-        const $this = $(this)
-        const id = $this.attr('id')
-        console.log(id)
-        $viewPortHref.removeClass('active')
-        $viewPortHref.each(function () {
-            const $th = $(this)
-            /*
-            console.log($th.attr('href'))
-            console.log($th.attr('href').indexOf('#' + id))
-            */
-            if ($th.attr('href').indexOf('#' + id) == -1) return this
-            $th.addClass('active')
+    clearTimeout(timeScroll)
+    timeScroll = setTimeout(function () {
+        $viewPortId.isInViewport({ tolerance: 100 }).each(function () {
+            const $this = $(this)
+            const id = $this.attr('id')
+            console.log(id)
+            $viewPortHref.removeClass('active')
+            $viewPortHref.each(function () {
+                const $th = $(this)
+                if ($th.attr('href').indexOf('#' + id) == -1) return this
+                $th.addClass('active')
+            })
         })
-    })
+    }, 200)
 })
 })(jQuery)

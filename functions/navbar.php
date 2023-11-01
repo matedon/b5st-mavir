@@ -46,6 +46,7 @@ class b5st_walker_nav_menu extends Walker_Nav_menu {
 	  
 		$item_output = $args->before;
 		$item_output .= ( $depth > 0 ) ? '<a class="dropdown-item"' . $attributes . '>' : '<a' . $attributes .'>';
+		$item_output .= '<i class="nav-link-active d-none d-lg-block"></i>';
 		$item_output .= $args->link_before . apply_filters( 'the_title', $item->title, $item->ID ) . $args->link_after;
 		$item_output .= '</a>';
 		$item_output .= $args->after;
