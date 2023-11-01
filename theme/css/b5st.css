@@ -38,6 +38,9 @@ body {
   position: relative;
   top: 3rem; }
 
+#site-aside {
+  margin-top: 5rem; }
+
 a {
   color: #AA3C29;
   text-decoration: none; }
