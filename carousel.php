@@ -42,7 +42,8 @@ $autoplay = ($sac == 1 || $sac === false) ? 'data-bs-ride="carousel"' : 'data-au
                     data-bs-interval="<?=of_get_option('b5st_slider_autoplay_time')?>"
                     data-b5st-bg-src="<?=$row['src']?>">
                     <div class="b5st-bg-cover ratio ratio-27x9 d-none d-md-block" style="background-image: url('<?=$row['src']?>');"></div>
-                    <div class="b5st-bg-cover ratio ratio-21x9 d-block d-md-none" style="background-image: url('<?=$row['src']?>');"></div>
+                    <div class="b5st-bg-cover ratio ratio-16x9 d-none d-sm-block d-md-none" style="background-image: url('<?=$row['src']?>');"></div>
+                    <div class="b5st-bg-cover ratio ratio-4x3 d-block d-sm-none" style="background-image: url('<?=$row['src']?>');"></div>
                     <div class="carousel-caption d-block">
                         <h5><?=$row['title']?></h5>
                         <p><?=$row['caption']?></p>
