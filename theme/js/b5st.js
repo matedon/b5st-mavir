@@ -28,16 +28,21 @@ let timeScroll
 $(window).on('scroll', function() {
     clearTimeout(timeScroll)
     timeScroll = setTimeout(function () {
+        const vp = []
         $viewPortId.isInViewport({ tolerance: 100 }).each(function () {
             const $this = $(this)
             const id = $this.attr('id')
             console.log(id)
-            $viewPortHref.removeClass('active')
             $viewPortHref.each(function () {
                 const $th = $(this)
-                if ($th.attr('href').indexOf('#' + id) == -1) return this
-                $th.addClass('active')
+                if ($th.attr('href').indexOf('#' + id) !== -1) {
+                    vp.push($th)
+                }
             })
+        })
+        $viewPortHref.removeClass('active')
+        $.each(vp, function (key, val) {
+            val.addClass('active')
         })
     }, 200)
 })
