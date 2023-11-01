@@ -16,6 +16,9 @@
 .text-color-6 {
   color: #AA3C29; }
 
+.ratio-27x9 {
+  --bs-aspect-ratio: calc(9 / 27 * 100%); }
+
 body {
   background: #FBEEE5; }
 
@@ -51,15 +54,14 @@ a:hover {
 .fw-bolder {
   font-weight: 400 !important; }
 
+.b5st-bg-cover {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
 .b5st-carousel-cont {
   position: relative;
   padding: 0; }
-
-.b5st-carousel-cont,
-.b5st-carousel-cont__bg1 {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; }
 
 .b5st-carousel-cont__bg1 {
   content: ' ';

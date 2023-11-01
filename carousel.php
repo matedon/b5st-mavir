@@ -26,9 +26,9 @@ endif;
 $sac = of_get_option('b5st_slider_autoplay_checkbox');
 $autoplay = ($sac == 1 || $sac === false) ? 'data-bs-ride="carousel"' : 'data-autoplay-off';
 ?>
-<div class="b5st-carousel-cont container-fluid" data-b5st-carousel style="background-image: url('<?=$rows[0]['src']?>');">
-    <div class="b5st-carousel-cont__bg1" data-b5st-carousel-bg1></div>
-    <div class="b5st-carousel-cont__bg2" data-b5st-carousel-bg2></div>
+<div class="b5st-carousel-cont b5st-bg-cover container-fluid" data-b5st-carousel style="background-image: url('<?=$rows[0]['src']?>');">
+    <div class="b5st-carousel-cont__bg1 b5st-bg-cover" data-b5st-carousel-bg></div>
+    <div class="b5st-carousel-cont__bg2"></div>
     <div class="b5st-carousel-cont-in">
         <div id="b5stCarousel" data-b5st-carousel-me <?php echo $autoplay; ?> class="carousel slide">
             <div class="carousel-indicators">
@@ -38,9 +38,12 @@ $autoplay = ($sac == 1 || $sac === false) ? 'data-bs-ride="carousel"' : 'data-au
             </div>
             <div class="carousel-inner">
                 <?php foreach($rows as $key => $row): ?>
-                <div class="carousel-item <?=($key == 0 ? 'active' : '')?>" data-bs-interval="<?=of_get_option('b5st_slider_autoplay_time')?>">
-                    <img src="<?=$row['src']?>" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-item <?=($key == 0 ? 'active' : '')?>"
+                    data-bs-interval="<?=of_get_option('b5st_slider_autoplay_time')?>"
+                    data-b5st-bg-src="<?=$row['src']?>">
+                    <div class="b5st-bg-cover ratio ratio-27x9 d-none d-md-block" style="background-image: url('<?=$row['src']?>');"></div>
+                    <div class="b5st-bg-cover ratio ratio-21x9 d-block d-md-none" style="background-image: url('<?=$row['src']?>');"></div>
+                    <div class="carousel-caption d-block">
                         <h5><?=$row['title']?></h5>
                         <p><?=$row['caption']?></p>
                     </div>
