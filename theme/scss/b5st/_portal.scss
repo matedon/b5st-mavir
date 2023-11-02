@@ -153,10 +153,13 @@ a:hover {
     background-color: rgba($color-3, 0.35);
 }
 .list-group .list-group-item {
+    position: relative;
     background: transparent;
-    padding-left: 0;
+    padding-left: 2rem;
 }
 .list-group .list-group-item i:first-child {
-    margin-right: 0.5rem;
+    position: absolute;
+    top: .75rem;
+    left: .25rem;
     color: $color-5;
 }
