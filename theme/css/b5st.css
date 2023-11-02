@@ -138,6 +138,14 @@ a:hover {
   height: 180%;
   background-color: rgba(241, 200, 171, 0.35); }
 
+.list-group .list-group-item {
+  background: transparent;
+  padding-left: 0; }
+
+.list-group .list-group-item i:first-child {
+  margin-right: 0.5rem;
+  color: #E88E74; }
+
 .site-header-image {
   display: block;
   margin: auto; }
@@ -180,7 +188,16 @@ h5, .h5,
 h6, .h6 {
   font-family: 'Kaushan Script', cursive;
   font-weight: 400;
-  margin-bottom: 0.75rem; }
+  margin-bottom: 0.75rem;
+  margin-top: 0.5rem; }
+
+article h1:first-child, article .h1:first-child,
+article h2:first-child, article .h2:first-child,
+article h3:first-child, article .h3:first-child,
+article h4:first-child, article .h4:first-child,
+article h5:first-child, article .h5:first-child,
+article h6:first-child, article .h6:first-child {
+  margin-top: 0; }
 
 h1, .h1 {
   font-size: 3rem; }
@@ -224,27 +241,6 @@ header h2 a {
 .wp-block-code {
   padding: 0.5em 1em;
   margin: 0 0 1.5rem; }
-
-.entry-content ul:not(.blocks-gallery-grid),
-.entry-content ol {
-  margin: 0 auto 1.5em auto;
-  max-width: 720px;
-  list-style-position: outside; }
-
-.entry-content li {
-  margin-left: 2.5em; }
-
-.entry-content ul ul,
-.entry-content ol ol,
-.entry-content ul ol,
-.entry-content ol ul {
-  margin: 0 auto; }
-
-.entry-content ul ul li,
-.entry-content ol ol li,
-.entry-content ul ol li,
-.entry-content ol ul li {
-  margin-left: 0; }
 
 .wp-block-quote {
   margin-left: 16px;

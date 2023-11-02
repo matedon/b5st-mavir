@@ -12,6 +12,16 @@ h6, .h6 {
   font-family: 'Kaushan Script', cursive;
   font-weight: 400;
   margin-bottom: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+article h1:first-child, article .h1:first-child,
+article h2:first-child, article .h2:first-child,
+article h3:first-child, article .h3:first-child,
+article h4:first-child, article .h4:first-child,
+article h5:first-child, article .h5:first-child,
+article h6:first-child, article .h6:first-child {
+  margin-top: 0;
 }
 
 h1, .h1 { font-size: 3rem; }

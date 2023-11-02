@@ -152,3 +152,11 @@ a:hover {
     height: 180%;
     background-color: rgba($color-3, 0.35);
 }
+.list-group .list-group-item {
+    background: transparent;
+    padding-left: 0;
+}
+.list-group .list-group-item i:first-child {
+    margin-right: 0.5rem;
+    color: $color-5;
+}
