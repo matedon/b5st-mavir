@@ -16,8 +16,8 @@ require get_template_directory() . '/functions/widgets.php';
 require get_template_directory() . '/functions/search-widget.php';
 require get_template_directory() . '/functions/index-pagination.php';
 require get_template_directory() . '/functions/split-post-pagination.php';
-require get_template_directory() . '/functions/table.php';
-require get_template_directory() . '/functions/list.php';
+require get_template_directory() . '/functions/html-mutation.php';
+
 
 /**
  * Helper function to return the theme option value.
