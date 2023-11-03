@@ -29,6 +29,7 @@ body {
     margin-top: 2rem;
     margin-bottom: 2rem;
     padding: 2rem;
+    overflow: hidden;
 }
 #breadcrumb + #site-main article.post:first-child {
     margin-top: 0;

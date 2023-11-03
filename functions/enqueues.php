@@ -31,7 +31,7 @@ if ( ! function_exists('b5st_enqueues') ) {
 			'googleFont2' => ['css', 'https://fonts.googleapis.com/css2?family=Kaushan+Script'],
 			'gutenberg-blocks' => ['css', '/theme/css/blocks.css'],
 			'b5st-theme' => ['css', '/theme/css/b5st.css'],
-			'animation' => ['css', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'],
+			'animation' => ['css', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css', false, '4.1.1'],
 			'bootstrap5js' => ['js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js', false, '5.2.3', true],
 			'jquery' => ['js', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js', false, '3.7.1', true],
 			'jquery-animate-enhance' => ['js', 'https://cdn.jsdelivr.net/gh/benbarnett/jQuery-Animate-Enhanced@1.2.0/jquery.animate-enhanced.min.js', false, '1.2.0', true],
