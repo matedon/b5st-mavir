@@ -36,7 +36,8 @@ function b5st_navbar_search() {
     ?>
     <form class="ms-1 md-flex" role="search" method="get" id="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">
       <div class="input-group">
-        <input class="form-control border-secondary" type="text" value="<?php echo get_search_query(); ?>" placeholder="Search..." name="s" id="s">
+        <input class="form-control border-secondary" type="text" value="<?php echo get_search_query(); ?>"
+        placeholder="<?=esc_html__('Search', 'b5st')?>..." name="s" id="s">
         <button type="submit" id="searchsubmit" value="<?php esc_attr_x('Search', 'b5st') ?>" class="btn btn-outline-secondary">
           <i class="bi bi-search"></i>
         </button>

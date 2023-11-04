@@ -16,12 +16,12 @@
 	/* === OPTIONS === */
 	$text['home']     = 'Home'; // text for the 'Home' link
 	$text['category'] = 'Archive by Category "%s"'; // text for a category page
-	$text['search']   = 'Search Results for "%s" Query'; // text for a search results page
-	$text['tag']      = 'Posts Tagged "%s"'; // text for a tag page
-	$text['author']   = 'Articles Posted by %s'; // text for an author page
+	$text['search']   = esc_html__('Search Results for', 'b5st') . ': "%s"'; // text for a search results page
+	$text['tag']      = esc_html__('Posts tagged', 'b5st') . ' "%s"'; // text for a tag page
+	$text['author']   = esc_html__('Articles Posted by', 'b5st') . ' %s'; // text for an author page
 	$text['404']      = 'Error 404'; // text for the 404 page
-	$text['page']     = 'Page %s'; // text 'Page N'
-	$text['cpage']    = 'Comment Page %s'; // text 'Comment Page N'
+	$text['page']     = esc_html__('Page', 'b5st') . ' %s'; // text 'Page N'
+	$text['cpage']    = esc_html__('Comment Page', 'b5st') . ' %s'; // text 'Comment Page N'
 
 	$wrap_before    = '<div id="breadcrumb" class="border-bottom"><nav aria-label="breadcrumb" class="container-xxl py-3"><ol class="breadcrumb m-0" itemscope itemtype="http://schema.org/BreadcrumbList">'; // the opening wrapper tag
 	//$wrap_before    = '<div class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">'; // the opening wrapper tag

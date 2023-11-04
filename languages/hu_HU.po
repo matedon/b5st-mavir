@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-04 12:38+0000\n"
-"PO-Revision-Date: 2023-11-04 12:38+0000\n"
+"PO-Revision-Date: 2023-11-04 13:41+0000\n"
 "Last-Translator: \n"
 "Language-Team: Magyar\n"
 "Language: hu_HU\n"
@@ -11,7 +11,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Loco https://localise.biz/"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.3.2"
 
 #: archive.php:10
 msgid "Archive"
@@ -27,7 +28,6 @@ msgstr "Kategória:"
 
 #: functions/action-hooks.php:40 functions/search-widget.php:11
 #: functions/search-widget.php:12
-msgctxt "b5st"
 msgid "Search"
 msgstr "Keresés"
 
@@ -81,8 +81,8 @@ msgstr "Adja meg a diaelemek számát"
 
 #: functions/dimox-breadcrumbs.php:20
 #, php-format
-msgid "Search Results for \"%s\" Query x"
-msgstr "Keresési eredmények a \"%s\" X lekérdezésre"
+msgid "Search Results for"
+msgstr "Keresési eredmények"
 
 #: functions/index-pagination.php:23
 msgid "« Prev"
@@ -399,6 +399,8 @@ msgid ""
 "Works only with YouTube. Paste your video URL here. Make sure video is "
 "embeddable."
 msgstr ""
+"Csak a YouTube-mal működik. Illessze be ide a videó URL-jét. Győződjön meg "
+"arról, hogy a videó beágyazható."
 
 #: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:529
 msgid "Horizontal Alignment"
@@ -448,6 +450,8 @@ msgid ""
 "width of the content will be equally split among the number of elements you "
 "select."
 msgstr ""
+"Az egyszerre megjelenítendő elemek száma. Példa: 2, 3 vagy 4 ártáblázat. A "
+"tartalom szélessége egyenlő arányban oszlik meg a kiválasztott elemek között."
 
 #: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:604
 msgid "Padding Top"
@@ -475,9 +479,10 @@ msgstr ""
 #: inc/libraries/epsilon-framework/classes/output/class-epsilon-color-coded-categories.php:112
 msgid ""
 "This color will affect category related elements such as links, titles, etc. "
-"(defined by your theme)Ez a szín hatással lesz a kategóriához kapcsolódó "
-"elemekre, például linkekre, címekre stb. (a témája határozza meg)"
+"(defined by your theme)"
 msgstr ""
+"Ez a szín hatással lesz a kategóriához kapcsolódó elemekre, például linkekre,"
+" címekre stb. (a témája határozza meg)"
 
 #: inc/libraries/epsilon-framework/classes/output/class-epsilon-repeater-templates.php:91
 msgid "Content"
@@ -711,7 +716,7 @@ msgstr "A bejegyzés megjegyzései lezárva."
 
 #: loops/single-post-comments.php:132
 msgid "Leave a Reply"
-msgstr "Válasz hagyása"
+msgstr "Válaszolj"
 
 #: loops/single-post-comments.php:132
 #, php-format
@@ -771,7 +776,7 @@ msgstr "Írta"
 #. translators: 1: comment count number.
 #: loops/single-post.php:36
 #, php-format
-msgctxt "b5st"
+msgctxt "comments number"
 msgid "%1$s comment"
 msgid_plural "%1$s comments"
 msgstr[0] "%1$s megjegyzés"
@@ -786,5 +791,26 @@ msgid "Other posts by "
 msgstr "Más bejegyzések tőle"
 
 #: tag.php:10
-msgid "Posts tagged:"
-msgstr "Címkézett bejegyzések:"
+msgid "Posts tagged"
+msgstr "Címkézett bejegyzések"
+
+msgid "updated"
+msgstr "frissítve"
+
+msgid "Required fields are marked"
+msgstr "A kötelező mezők meg vannak jelölve"
+
+msgid "Previous post"
+msgstr "Előző bejegyzés"
+
+msgid "Next post"
+msgstr "Következő bejegyzés"
+
+msgid "Articles Posted by"
+msgstr "Általa írt cikkek: "
+
+msgid "Page"
+msgstr "Oldal"
+
+msgid "Comment Page"
+msgstr "Megjegyzés oldal"

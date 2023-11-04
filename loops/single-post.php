@@ -32,8 +32,7 @@
           <a href="#post-comments"><?php
             $comment_count = get_comments_number();
             printf(
-              /* translators: 1: comment count number. */
-              esc_html( _nx( '%1$s comment', '%1$s comments', $comment_count, 'b5st' ) ),
+              _nx( '%1$s comment', '%1$s comments', $comment_count, 'comments number', 'b5st' ),
               number_format_i18n( $comment_count )
             );
           ?></a>
@@ -71,7 +70,10 @@
         <div class="author-description"><?php b5st_author_description(); ?></div>
         <?php
       } ?>
-      <p class="author-other-posts mb-0"><?php _e('Other posts by ', 'b5st'); the_author_posts_link(); ?></p>
+      <p class="author-other-posts mb-0">
+        <?php _e('Other posts by ', 'b5st'); ?>:
+        <?=the_author_posts_link(); ?>
+      </p>
     </div>
   </section><!-- /.author-bio -->
 
@@ -92,7 +94,7 @@
         <div class="border rounded bg-light d-flex align-items-center">
           <i class="bi bi-chevron-compact-left fs-1"></i>
           <div>
-            Previous post<br>
+            <?=esc_html__('Previous post', 'b5st')?><br>
             <?php previous_post_link( '%link', '%title' ) ?>
           </div>
         </div>
@@ -112,10 +114,10 @@
       <?php } ?>
 
       <!-- `<div class="col text-start">
-        <?php previous_post_link('%link', '<i class="bi bi-arrow-left"></i> Previous post: '.'%title'); ?>
+        <?php previous_post_link('%link', '<i class="bi bi-arrow-left"></i> ' . esc_html__('Previous post', 'b5st') . ': '.'%title'); ?>
       </div>
       <div class="col text-end">
-        <?php next_post_link('%link', 'Next post: '.'%title'.' <i class="bi bi-arrow-right"></i>'); ?>
+        <?php next_post_link('%link', esc_html__('Next post', 'b5st') . ': '.'%title'.' <i class="bi bi-arrow-right"></i>'); ?>
       </div> -->
     </div>
   </section>

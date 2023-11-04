@@ -130,7 +130,7 @@ if (have_comments()) : ?>
   <div class="comments-wrap bg-light border px-3 py-1">
     <div>
         <h3 class="mt-3"><?php comment_form_title(__('Leave a Reply', 'b5st'), __('Responses to %s', 'b5st')); ?></h3>
-        <p>Required fields are marked <span class="fs-4">*</span></p>
+        <p><?=esc_html__('Required fields are marked', 'b5st')?> <span class="fs-4">*</span></p>
         <p><?php cancel_comment_reply_link(); ?></p>
         <?php if (get_option('comment_registration') && !is_user_logged_in()) : ?>
         <p><?php printf(__('You must be <a href="%s">logged in</a> to post a comment.', 'b5st'), wp_login_url(get_permalink())); ?></p>
