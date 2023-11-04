@@ -1,0 +1,728 @@
+#: archive.php:10
+msgid "Archive"
+msgstr ""
+
+#: author.php:24
+msgid "Posts by:"
+msgstr ""
+
+#: category.php:10
+msgid "Category:"
+msgstr ""
+
+#: functions/action-hooks.php:40 functions/search-widget.php:11
+#: functions/search-widget.php:12
+msgctxt "b5st"
+msgid "Search"
+msgstr ""
+
+#: functions/customizer.php:19
+msgid "B5ST Options"
+msgstr ""
+
+#: functions/customizer.php:20
+msgid "Panel to update b5st theme options"
+msgstr ""
+
+#: functions/customizer.php:31
+msgid "Slider Options"
+msgstr ""
+
+#: functions/customizer.php:49
+msgid "Check if you want to enable slider"
+msgstr ""
+
+#: functions/customizer.php:69
+msgid "Uncheck this option to remove the link from the slides"
+msgstr ""
+
+#: functions/customizer.php:90
+msgid "Check if you want to enable autoplay"
+msgstr ""
+
+#: functions/customizer.php:109
+msgid "Slider autoplay in time (ms)"
+msgstr ""
+
+#: functions/customizer.php:111
+msgid "Enter autoplay time in milliseconds"
+msgstr ""
+
+#: functions/customizer.php:130
+msgid "Slider Category"
+msgstr ""
+
+#: functions/customizer.php:133
+msgid "Select a category for the featured post slider"
+msgstr ""
+
+#: functions/customizer.php:149
+msgid "Number of slide items"
+msgstr ""
+
+#: functions/customizer.php:151
+msgid "Enter the number of slide items"
+msgstr ""
+
+#: functions/dimox-breadcrumbs.php:20
+#, php-format
+msgid "Search Results for \"%s\" Query x"
+msgstr ""
+
+#: functions/index-pagination.php:23
+msgid "« Prev"
+msgstr ""
+
+#: functions/index-pagination.php:24
+msgid "Next »"
+msgstr ""
+
+#: functions/navbar.php:64
+msgid "Navbar"
+msgstr ""
+
+#: functions/setup.php:23
+msgid "Small"
+msgstr ""
+
+#: functions/setup.php:24
+msgid "S"
+msgstr ""
+
+#: functions/setup.php:29
+msgid "Normal"
+msgstr ""
+
+#: functions/setup.php:30
+msgid "M"
+msgstr ""
+
+#: functions/setup.php:35
+msgid "Large"
+msgstr ""
+
+#: functions/setup.php:36
+msgid "L"
+msgstr ""
+
+#: functions/setup.php:41
+msgid "Huge"
+msgstr ""
+
+#: functions/setup.php:42
+msgid "XL"
+msgstr ""
+
+#: functions/widgets.php:27
+msgid "Mainbody Widget Area 1"
+msgstr ""
+
+#: functions/widgets.php:29 functions/widgets.php:43
+msgid "Use 1, 2, 3 or 4 widgets."
+msgstr ""
+
+#: functions/widgets.php:41
+msgid "Footer Widget Area"
+msgstr ""
+
+#: functions/widgets.php:55
+msgid "Sidebar Widget Area"
+msgstr ""
+
+#: functions/widgets.php:57
+msgid "Sidebar widgets."
+msgstr ""
+
+#: inc/libraries/epsilon-framework/class-epsilon-framework.php:330
+#: inc/libraries/epsilon-framework/classes/output/class-epsilon-repeater-templates.php:60
+#: inc/libraries/epsilon-framework/classes/output/class-epsilon-repeater-templates.php:148
+msgid "Remove"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/class-epsilon-framework.php:331
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-repeater.php:101
+msgid "Add"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/class-epsilon-framework.php:332
+#: inc/libraries/epsilon-framework/classes/output/class-epsilon-repeater-templates.php:330
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-image.php:110
+msgid "Upload image"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/class-epsilon-framework.php:333
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-repeater.php:220
+msgid "Row"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/backend/class-epsilon-content-backup.php:221
+msgid "This page contains the content created by the customizer."
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/backend/class-epsilon-notify-system.php:121
+#, php-format
+msgid "Install: %s"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/backend/class-epsilon-notify-system.php:123
+#, php-format
+msgid "Please install %s in order to create the demo content."
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/backend/class-epsilon-notify-system.php:127
+#, php-format
+msgid "Activate: %s"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/backend/class-epsilon-notify-system.php:129
+#, php-format
+msgid "Please activate %s in order to create the demo content."
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/backend/class-epsilon-section-navigation-menu.php:45
+msgid "Front Page Sections"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/backend/class-epsilon-section-navigation-menu.php:72
+msgid "Section"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/backend/class-epsilon-section-navigation-menu.php:78
+msgid "Select a Section"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/backend/class-epsilon-section-navigation-menu.php:87
+msgid "Label"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/backend/class-epsilon-section-navigation-menu.php:95
+msgid "Only sections that have an ID are selectable, please edit section id's to see all the sections!"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/backend/class-epsilon-section-navigation-menu.php:101
+msgid "Add to Menu"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/class-epsilon-ajax-controller.php:34
+#: inc/libraries/epsilon-framework/classes/class-epsilon-ajax-controller.php:47
+msgid "Not allowed"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/class-epsilon-ajax-controller.php:60
+msgid "Class does not exist"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/class-epsilon-customizer.php:452
+msgid "Live edit with Epsilon"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/class-epsilon-customizer.php:486
+#: inc/libraries/epsilon-framework/classes/class-epsilon-customizer.php:531
+msgid "Edit with Epsilon Page Builder"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/class-epsilon-customizer.php:516
+msgid "Epsilon"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-helper.php:18
+#: inc/libraries/epsilon-framework/classes/output/class-epsilon-repeater-templates.php:62
+#: inc/libraries/epsilon-framework/classes/output/class-epsilon-repeater-templates.php:150
+#: inc/libraries/epsilon-framework/customizer/sections/class-epsilon-section-doubled.php:56
+msgid "Close"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:299
+msgid "Text Color"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:314
+msgid "Heading Color"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:357
+msgid ""
+msgstr "Háttérszín"
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:358
+msgid "Setting a value for this field will create a color overlay on top of background image/videos."
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:371
+msgid "Background color opacity"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:388
+msgid "Background Image"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:389
+msgid "Use this field to set a background image. Content will overlay on top of the image."
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:403
+msgid "Background Position"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:404
+msgid "We recommend using Center. Experiment with the options to see what works best for you."
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:409
+msgid "Top Left"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:410
+msgid "Top"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:411
+msgid "Top Right"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:412
+msgid "Left"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:413
+msgid "Center"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:414
+msgid "Right"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:415
+msgid "Bottom Left"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:416
+msgid "Bottom"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:417
+msgid "Bottom Right"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:426
+msgid "Background Repeat"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:427
+msgid "Set to background-repeat if you are using patterns. For parallax, we recommend setting to no-repeat."
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:432
+msgid "No Repeat"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:433
+msgid "Repeat"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:434
+msgid "Repeat Y"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:435
+msgid "Repeat X"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:444
+msgid "Background Stretch"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:445
+msgid "We usually recommend using cover as a default option."
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:450
+msgid "Cover"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:451
+msgid "Contain"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:452
+msgid "Initial"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:461
+msgid "Background Parallax"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:462
+msgid "Toggling this to ON will enable the parallax effect. Make sure you have a background image set before enabling it."
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:473
+msgid "Background Video "
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:474
+msgid "Works only with YouTube. Paste your video URL here. Make sure video is embeddable."
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:529
+msgid "Horizontal Alignment"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:530
+msgid "Center/Left/Right align all of a sections content."
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:545
+msgid "Vertical Alignment"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:546
+msgid "We recommend leaving this to center, but feel free to experiment with the options. Top/Bottom align can be useful when you have a layout of text image on the same line."
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:560
+msgid "Content Stretch"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:561
+msgid "Make the section stretch to full-width. Contained is default. There's also the option of boxed center. "
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:575
+msgid "Item Spacing"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:589
+msgid "Item Group"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:590
+msgid "Number of items to display at once. Example: 2, 3 or 4 pricing tables. The width of the content will be equally split among the number of elements you select."
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:604
+msgid "Padding Top"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:618
+msgid "Padding Bottom"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:632
+msgid "Content Alignment"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-section-repeater-helper.php:633
+msgid "All sections support an alternating layout. The layout changes based on a section's title position. Currently available options are: title left / content right -- title center / content center -- title right / content left "
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/output/class-epsilon-color-coded-categories.php:112
+msgid "This color will affect category related elements such as links, titles, etc. (defined by your theme)"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/output/class-epsilon-repeater-templates.php:91
+msgid "Content"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/output/class-epsilon-repeater-templates.php:95
+msgid "Style"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/output/class-epsilon-repeater-templates.php:99
+msgid "Layout"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/output/class-epsilon-repeater-templates.php:103
+msgid "Colors"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/output/class-epsilon-repeater-templates.php:332
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-image.php:112
+msgid "Recommended resolution:"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/output/class-epsilon-repeater-templates.php:344
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-image.php:126
+msgid "Select File"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/output/class-epsilon-repeater-templates.php:418
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-color-picker.php:82
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-typography.php:254
+msgid "(clear)"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/classes/output/class-epsilon-repeater-templates.php:458
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-icon-picker.php:89
+msgid "All"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-image-dimensions.php:88
+msgid "Width"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-image-dimensions.php:92
+msgid "Height"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-image-dimensions.php:96
+msgid "Ratio"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-image.php:122
+msgid "Default"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-layouts.php:201
+msgid "Edit column size"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-repeater.php:268
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-section-repeater.php:350
+msgid "Limit: "
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-repeater.php:268
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-section-repeater.php:351
+msgid "sections"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-section-repeater.php:177
+msgid "Section Class"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-section-repeater.php:265
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-upsell.php:70
+msgid "See what's in the PRO version"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-section-repeater.php:363
+msgid "Add More Sections"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-section-repeater.php:384
+msgid "Search sections"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-section-repeater.php:385
+msgid "Search sections &hellip;"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-section-repeater.php:388
+msgid "Clear Results"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-section-repeater.php:390
+msgid "The search results will be updated as you type."
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-section-repeater.php:395
+msgid "Sections"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-section-repeater.php:397
+msgid "Integrations"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-typography.php:266
+msgid "Theme default"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-typography.php:299
+msgid "Font Size"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-typography.php:308
+msgid "Line Height"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-typography.php:317
+msgid "Letter Spacing"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/sections/class-epsilon-section-doubled.php:51
+msgid "Press return or enter to open this section"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/sections/class-epsilon-section-doubled.php:64
+msgid "Help"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/sections/class-epsilon-section-recommended-actions.php:114
+msgid "Facebook"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/sections/class-epsilon-section-recommended-actions.php:116
+msgid "Twitter"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/sections/class-epsilon-section-recommended-actions.php:118
+msgid "Review this theme on w.org"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/sections/class-epsilon-section-recommended-actions.php:279
+#: inc/libraries/epsilon-framework/customizer/sections/class-epsilon-section-recommended-actions.php:345
+msgid "Install"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/sections/class-epsilon-section-recommended-actions.php:283
+#: inc/libraries/epsilon-framework/customizer/sections/class-epsilon-section-recommended-actions.php:349
+msgid "Activate"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/sections/class-epsilon-section-recommended-actions.php:287
+#: inc/libraries/epsilon-framework/customizer/sections/class-epsilon-section-recommended-actions.php:353
+msgid "Update"
+msgstr ""
+
+#: inc/libraries/epsilon-framework/customizer/sections/class-epsilon-section-recommended-actions.php:291
+#: inc/libraries/epsilon-framework/customizer/sections/class-epsilon-section-recommended-actions.php:357
+msgid "Deactivate"
+msgstr ""
+
+#: loops/404.php:3
+msgid "Error"
+msgstr ""
+
+#: loops/404.php:5
+msgid "Sorry, we can&rsquo;t find what you were looking for."
+msgstr ""
+
+#: loops/index-post.php:29 loops/index-post.php:32
+msgid "Continue reading →"
+msgstr ""
+
+#: loops/search-results.php:9
+msgid "Search results"
+msgstr ""
+
+#: loops/search-results.php:25
+msgid "Sorry, your search yielded no results."
+msgstr ""
+
+#: loops/single-post-comments.php:31
+msgid "at"
+msgstr ""
+
+#: loops/single-post-comments.php:33
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: loops/single-post-comments.php:46
+msgid "<i class=\"bi bi-reply\"></i> Reply"
+msgstr ""
+
+#: loops/single-post-comments.php:51
+msgid "<i class=\"bi bi-pen\"></i> Edit this reply"
+msgstr ""
+
+#: loops/single-post-comments.php:70
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#. translators: 1: title.
+#: loops/single-post-comments.php:85
+msgid "Feedback"
+msgstr ""
+
+#. translators: 1: title.
+#: loops/single-post-comments.php:95
+#, php-format
+msgid "One comment on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: loops/single-post-comments.php:101
+#, php-format
+msgctxt "comments title"
+msgid "%1$s comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: loops/single-post-comments.php:121
+msgid "Be the first to write a comment."
+msgstr ""
+
+#: loops/single-post-comments.php:123
+msgid "Comments are closed for this post."
+msgstr ""
+
+#: loops/single-post-comments.php:132
+msgid "Leave a Reply"
+msgstr ""
+
+#: loops/single-post-comments.php:132
+#, php-format
+msgid "Responses to %s"
+msgstr ""
+
+#: loops/single-post-comments.php:136
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: loops/single-post-comments.php:143
+msgid "Logged in as"
+msgstr ""
+
+#: loops/single-post-comments.php:144
+msgid "Log out of this account"
+msgstr ""
+
+#: loops/single-post-comments.php:144
+msgid "Log out"
+msgstr ""
+
+#: loops/single-post-comments.php:150
+msgid "Your name"
+msgstr ""
+
+#: loops/single-post-comments.php:157
+msgid "Your email address"
+msgstr ""
+
+#: loops/single-post-comments.php:157
+msgid "(will not be published)"
+msgstr ""
+
+#: loops/single-post-comments.php:164
+msgid "Your website or blog"
+msgstr ""
+
+#: loops/single-post-comments.php:164
+msgid " (not required)"
+msgstr ""
+
+#: loops/single-post-comments.php:172
+msgid "Your comment:"
+msgstr ""
+
+#: loops/single-post-comments.php:176
+msgid "Post comment"
+msgstr ""
+
+#: loops/single-post.php:22
+msgid "By"
+msgstr ""
+
+#. translators: 1: comment count number.
+#: loops/single-post.php:36
+#, php-format
+msgctxt "b5st"
+msgid "%1$s comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: loops/single-post.php:68
+msgid "Author: "
+msgstr ""
+
+#: loops/single-post.php:74
+msgid "Other posts by "
+msgstr ""
+
+#: tag.php:10
+msgid "Posts tagged:"
+msgstr ""

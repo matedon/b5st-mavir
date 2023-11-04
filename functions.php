@@ -52,3 +52,9 @@ foreach ($options_categories_obj as $category) {
 }
 
 require get_template_directory() . '/functions/customizer.php';
+
+/*
+  * Make theme available for translation.
+  * Translations can be filed in the /languages/ directory.
+  */
+load_theme_textdomain('b5st', get_template_directory() . '/languages');
