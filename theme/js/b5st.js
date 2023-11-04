@@ -60,7 +60,7 @@ $(document).on('ready', function () {
      */
     const $articleSection = $('article').filter('.post').find('section')
     const $aside = $('#site-aside')
-    $aside.find('h1, h2, h3, h4, h5, h6').addClass('ani_backInLeft')
+    $aside.find('h1, h2, h3, h4, h5, h6').addClass('ani_backInUp')
     $articleSection.find('h1, h2, h3, h4, h5, h6').addClass('ani_backInLeft')
     $articleSection.find('b').addClass('d-inline-block').addClass('ani_pulse').addClass('animate__delay-1s')
 })
