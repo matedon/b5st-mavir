@@ -116,9 +116,6 @@ function b5st_bottomline() {
         <div class="col-sm">
           <p class="text-center text-sm-start">&copy; <?php echo date('Y'); ?> <a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></p>
         </div>
-        <div class="col-sm">
-          <p class="text-center text-sm-end"><a href="https://github.com/SimonPadbury/b5st">b5st</a> theme for WordPress</p>
-        </div>
       </div>
     </div>
 		<?php		
