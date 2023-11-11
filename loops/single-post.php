@@ -106,7 +106,7 @@
           <div class="border rounded bg-light d-flex flex-row-reverse align-items-center">
           <i class="bi bi-chevron-compact-right fs-1"></i>
           <div class="text-end">
-            Next Post<br>
+            <?=esc_html__('Next post', 'b5st');?><br>
             <?php next_post_link( '%link', '%title' ) ?>
           </div>
         </div>
