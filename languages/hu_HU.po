@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-04 12:38+0000\n"
-"PO-Revision-Date: 2023-11-04 13:41+0000\n"
+"PO-Revision-Date: 2023-11-11 10:50+0000\n"
 "Last-Translator: \n"
 "Language-Team: Magyar\n"
-"Language: hu_HU\n"
+"Language: hu-HU\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,7 +26,7 @@ msgstr "Bejegyzések:"
 msgid "Category:"
 msgstr "Kategória:"
 
-#: functions/action-hooks.php:40 functions/search-widget.php:11
+#: functions/action-hooks.php:40 functions/search-widget.php:11 
 #: functions/search-widget.php:12
 msgid "Search"
 msgstr "Keresés"
@@ -148,24 +148,26 @@ msgstr "Oldalsáv widget terület"
 msgid "Sidebar widgets."
 msgstr "Oldalsáv widgetek."
 
-#: inc/libraries/epsilon-framework/class-epsilon-framework.php:330
+#: inc/libraries/epsilon-framework/class-epsilon-framework.php:330 
 #: inc/libraries/epsilon-framework/classes/output/class-epsilon-repeater-templates.php:60
+#:  
 #: inc/libraries/epsilon-framework/classes/output/class-epsilon-repeater-templates.php:148
 msgid "Remove"
 msgstr "Eltávolítás"
 
-#: inc/libraries/epsilon-framework/class-epsilon-framework.php:331
+#: inc/libraries/epsilon-framework/class-epsilon-framework.php:331 
 #: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-repeater.php:101
 msgid "Add"
 msgstr "Hozzáadás"
 
-#: inc/libraries/epsilon-framework/class-epsilon-framework.php:332
+#: inc/libraries/epsilon-framework/class-epsilon-framework.php:332 
 #: inc/libraries/epsilon-framework/classes/output/class-epsilon-repeater-templates.php:330
+#:  
 #: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-image.php:110
 msgid "Upload image"
 msgstr "Kép feltöltése"
 
-#: inc/libraries/epsilon-framework/class-epsilon-framework.php:333
+#: inc/libraries/epsilon-framework/class-epsilon-framework.php:333 
 #: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-repeater.php:220
 msgid "Row"
 msgstr "Sor"
@@ -223,6 +225,7 @@ msgid "Add to Menu"
 msgstr "Hozzáadás a menühöz"
 
 #: inc/libraries/epsilon-framework/classes/class-epsilon-ajax-controller.php:34
+#:  
 #: inc/libraries/epsilon-framework/classes/class-epsilon-ajax-controller.php:47
 msgid "Not allowed"
 msgstr "Nem engedélyezett"
@@ -235,7 +238,7 @@ msgstr "Az osztály nem létezik"
 msgid "Live edit with Epsilon"
 msgstr "Élő szerkesztés Epsilonnal"
 
-#: inc/libraries/epsilon-framework/classes/class-epsilon-customizer.php:486
+#: inc/libraries/epsilon-framework/classes/class-epsilon-customizer.php:486 
 #: inc/libraries/epsilon-framework/classes/class-epsilon-customizer.php:531
 msgid "Edit with Epsilon Page Builder"
 msgstr "Szerkesztés az Epsilon Page Builderrel"
@@ -244,9 +247,11 @@ msgstr "Szerkesztés az Epsilon Page Builderrel"
 msgid "Epsilon"
 msgstr "Epszilon"
 
-#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-helper.php:18
+#: inc/libraries/epsilon-framework/classes/helpers/class-epsilon-helper.php:18 
 #: inc/libraries/epsilon-framework/classes/output/class-epsilon-repeater-templates.php:62
+#:  
 #: inc/libraries/epsilon-framework/classes/output/class-epsilon-repeater-templates.php:150
+#:  
 #: inc/libraries/epsilon-framework/customizer/sections/class-epsilon-section-doubled.php:56
 msgid "Close"
 msgstr "Bezárás"
@@ -501,22 +506,27 @@ msgid "Colors"
 msgstr "Színek"
 
 #: inc/libraries/epsilon-framework/classes/output/class-epsilon-repeater-templates.php:332
+#:  
 #: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-image.php:112
 msgid "Recommended resolution:"
 msgstr "Javasolt felbontás:"
 
 #: inc/libraries/epsilon-framework/classes/output/class-epsilon-repeater-templates.php:344
+#:  
 #: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-image.php:126
 msgid "Select File"
 msgstr "Fájl kiválasztása"
 
 #: inc/libraries/epsilon-framework/classes/output/class-epsilon-repeater-templates.php:418
+#:  
 #: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-color-picker.php:82
+#:  
 #: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-typography.php:254
 msgid "(clear)"
 msgstr "(törlés)"
 
 #: inc/libraries/epsilon-framework/classes/output/class-epsilon-repeater-templates.php:458
+#:  
 #: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-icon-picker.php:89
 msgid "All"
 msgstr "Mind"
@@ -542,11 +552,13 @@ msgid "Edit column size"
 msgstr "Oszlopméret szerkesztése"
 
 #: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-repeater.php:268
+#:  
 #: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-section-repeater.php:350
 msgid "Limit: "
 msgstr "Korlát:"
 
 #: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-repeater.php:268
+#:  
 #: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-section-repeater.php:351
 msgid "sections"
 msgstr "szakaszok"
@@ -556,6 +568,7 @@ msgid "Section Class"
 msgstr "Szakaszosztály"
 
 #: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-section-repeater.php:265
+#:  
 #: inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-upsell.php:70
 msgid "See what's in the PRO version"
 msgstr "Nézd meg, mi van a PRO verzióban"
@@ -625,21 +638,25 @@ msgid "Review this theme on w.org"
 msgstr "Tekintse át ezt a témát a w.org webhelyen"
 
 #: inc/libraries/epsilon-framework/customizer/sections/class-epsilon-section-recommended-actions.php:279
+#:  
 #: inc/libraries/epsilon-framework/customizer/sections/class-epsilon-section-recommended-actions.php:345
 msgid "Install"
 msgstr "Telepítés"
 
 #: inc/libraries/epsilon-framework/customizer/sections/class-epsilon-section-recommended-actions.php:283
+#:  
 #: inc/libraries/epsilon-framework/customizer/sections/class-epsilon-section-recommended-actions.php:349
 msgid "Activate"
 msgstr "Aktiválás"
 
 #: inc/libraries/epsilon-framework/customizer/sections/class-epsilon-section-recommended-actions.php:287
+#:  
 #: inc/libraries/epsilon-framework/customizer/sections/class-epsilon-section-recommended-actions.php:353
 msgid "Update"
 msgstr "Frissítés"
 
 #: inc/libraries/epsilon-framework/customizer/sections/class-epsilon-section-recommended-actions.php:291
+#:  
 #: inc/libraries/epsilon-framework/customizer/sections/class-epsilon-section-recommended-actions.php:357
 msgid "Deactivate"
 msgstr "Deaktiválás"
