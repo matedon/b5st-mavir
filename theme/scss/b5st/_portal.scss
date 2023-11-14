@@ -153,14 +153,28 @@ a:hover {
     height: 180%;
     background-color: rgba($color-3, 0.35);
 }
-.list-group .list-group-item {
+ul .list-group-item {
     position: relative;
     background: transparent;
     padding-left: 2rem;
 }
-.list-group .list-group-item i:first-child {
+ul .list-group-item i:first-child {
     position: absolute;
     top: .75rem;
     left: .25rem;
     color: $color-5;
+}
+ol .list-group-item i:first-child {
+    display: none;
+}
+.list-group-numbered {
+    counter-reset: section calc(var(--list-start, 1) - 1) !important;
+}
+.table.bg-light,
+.table-responsive.bg-light {
+    --bs-bg-opacity: 0.5;
+    --bs-light-rgb: 255, 255, 255;
+}
+.table-striped > tbody > tr:nth-of-type(2n+1) > * {
+    --bs-table-striped-bg: #{rgba($color-3, 0.3)};
 }

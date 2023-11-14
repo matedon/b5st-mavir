@@ -15,6 +15,15 @@ h6, .h6 {
   margin-top: 0.5rem;
 }
 
+.official .entry-content h1, .official .entry-content .h1,
+.official .entry-content h2, .official .entry-content .h2,
+.official .entry-content h3, .official .entry-content .h3,
+.official .entry-content h4, .official .entry-content .h4,
+.official .entry-content h5, .official .entry-content .h5,
+.official .entry-content h6, .official .entry-content .h6 {
+  font-family: 'Lora', serif;
+}
+
 article h1:first-child, article .h1:first-child,
 article h2:first-child, article .h2:first-child,
 article h3:first-child, article .h3:first-child,

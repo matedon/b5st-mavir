@@ -21,6 +21,17 @@ if ( ! function_exists('b5st_cleanup_head') ) {
 }
 add_action('init', 'b5st_cleanup_head');
 
+/*
+if ( ! function_exists('b5st_cleanup_body') ) {
+  function b5st_cleanup_body() {
+    // How to Make WordPress Quit Inserting Paragraph Tags
+    remove_filter('the_content', 'wpautop');
+    remove_filter('the_excerpt', 'wpautop');
+  }
+}
+add_action('init', 'b5st_cleanup_body');
+*/
+
 // Show less info to users on failed login for security.
 // (Will not let a valid username be known.)
 
