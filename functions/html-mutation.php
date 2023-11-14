@@ -1,7 +1,7 @@
 <?php
 
 function b5st_custom_table($content) {
-    $content = str_replace( '<table', '<div class="table-responsive bg-light"><table class="table table-striped"', $content);
+    $content = str_replace( '<table', '<div class="table-responsive"><table class="table table-striped bg-light"', $content);
     $content = str_replace( '</table>', '</table></div>', $content);
     return $content;
 }
